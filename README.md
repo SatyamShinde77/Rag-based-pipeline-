@@ -240,7 +240,6 @@ This project proves ability in:
 ✔ Real product UI design
 ✔ Production-level system thinking
 
-This is not a template — it is a custom-built AI system with real engineering depth.
 
 👨‍💻 Author
 
