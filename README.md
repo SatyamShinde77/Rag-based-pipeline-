@@ -56,15 +56,15 @@ Answer + Confidence + Metrics + Citations
 
 rag_project/
  ├── app/
- │   ├── main.py          # FastAPI API Server
- │   ├── ingestion.py     # Document chunking & embedding
- │   ├── retriever.py     # Similarity search logic
- │   ├── generator.py     # LLM answer generation
- │   └── vector_store.py  # FAISS vector database
- ├── frontend.py          # Streamlit UI (Client Interface)
- ├── requirements.txt     # Dependencies
- ├── README.md            # Documentation
- └── EXPLANATION.md       # explanation
+ │   ├── main.py
+ │   ├── ingestion.py
+ │   ├── retriever.py
+ │   ├── generator.py
+ │   └── vector_store.py
+ ├── frontend.py
+ ├── requirements.txt
+ ├── README.md
+ └── EXPLANATION.md
 
 ⚙️ Tech Stack
 
