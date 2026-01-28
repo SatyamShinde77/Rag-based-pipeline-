@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+slowapi
+sentence-transformers
+faiss-cpu
+requests
+pydantic
+python-multipart
+groq
+PyPDF2
