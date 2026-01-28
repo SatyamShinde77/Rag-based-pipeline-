@@ -54,17 +54,20 @@ Answer + Confidence + Metrics + Citations
 
 📂 Project Structure
 
-rag_project/
- ├── app/
- │   ├── main.py
- │   ├── ingestion.py
- │   ├── retriever.py
- │   ├── generator.py
- │   └── vector_store.py
- ├── frontend.py
- ├── requirements.txt
- ├── README.md
- └── EXPLANATION.md
+📁 rag_project/
+│
+├── app/
+│   ├── main.py          # FastAPI API Server
+│   ├── ingestion.py     # Document chunking & embedding
+│   ├── retriever.py     # Similarity search (FAISS)
+│   ├── generator.py     # LLM answer generation
+│   └── vector_store.py  # Vector database logic
+│
+├── frontend.py          # Streamlit user interface
+├── requirements.txt     # Dependencies
+├── README.md            # Project documentation
+└── EXPLANATION.md       # Technical deep-dive
+
 
 ⚙️ Tech Stack
 
