@@ -54,28 +54,30 @@ Answer + Confidence + Metrics + Citations
 
 📂 Project Structure
 
-rag_project/
- ├── app/
- │   ├── main.py          # FastAPI API Server
- │   ├── ingestion.py     # Document chunking & embedding
- │   ├── retriever.py     # Similarity search logic
- │   ├── generator.py     # LLM answer generation
- │   └── vector_store.py  # FAISS vector database
- ├── frontend.py          # Streamlit UI (Client Interface)
- ├── requirements.txt     # Dependencies
- ├── README.md            # Documentation
- └── EXPLANATION.md       # explanation
+📁 rag_project/
+│
+├── app/
+│   ├── main.py          # FastAPI API Server
+│   ├── ingestion.py     # Document chunking & embedding
+│   ├── retriever.py     # Similarity search (FAISS)
+│   ├── generator.py     # LLM answer generation
+│   └── vector_store.py  # Vector database logic
+│
+├── frontend.py          # Streamlit user interface
+├── requirements.txt     # Dependencies
+├── README.md            # Project documentation
+└── EXPLANATION.md       # Technical deep-dive
+
 
 ⚙️ Tech Stack
-
-Layer	                                     Technology
-Backend API	                                  FastAPI
-Frontend UI	                                Streamlit
-Embeddings	                        Sentence Transformers (MiniLM)
-Vector Store	                              FAISS
-LLM	                                   LLaMA / Groq / OpenAI
-Rate Limiting	                             SlowAPI
-Language	                                  Python
+Backend: FastAPI, Python
+Frontend: Streamlit
+Embeddings: Sentence Transformers (MiniLM)
+Vector Database: FAISS
+LLM Providers: Groq / OpenAI / LLaMA
+Retrieval: Semantic Search + Ranking
+Rate Limiting: SlowAPI
+Deployment Ready: Docker / Cloud Ready
 
 🚀 Features
 
@@ -238,7 +240,6 @@ This project proves ability in:
 ✔ Real product UI design
 ✔ Production-level system thinking
 
-This is not a template — it is a custom-built AI system with real engineering depth.
 
 👨‍💻 Author
 
