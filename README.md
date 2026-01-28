@@ -70,15 +70,14 @@ Answer + Confidence + Metrics + Citations
 
 
 ⚙️ Tech Stack
-
-Layer	                                     Technology
-Backend API	                                  FastAPI
-Frontend UI	                                Streamlit
-Embeddings	                        Sentence Transformers (MiniLM)
-Vector Store	                              FAISS
-LLM	                                   LLaMA / Groq / OpenAI
-Rate Limiting	                             SlowAPI
-Language	                                  Python
+Backend: FastAPI, Python
+Frontend: Streamlit
+Embeddings: Sentence Transformers (MiniLM)
+Vector Database: FAISS
+LLM Providers: Groq / OpenAI / LLaMA
+Retrieval: Semantic Search + Ranking
+Rate Limiting: SlowAPI
+Deployment Ready: Docker / Cloud Ready
 
 🚀 Features
 
